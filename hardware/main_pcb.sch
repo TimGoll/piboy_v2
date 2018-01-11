@@ -51,17 +51,6 @@ Comment4 ""
 $EndDescr
 $Comp
 L USB_B J?
-U 1 1 5A53DF67
-P 1000 1150
-F 0 "J?" H 800 1600 50  0000 L CNN
-F 1 "USB_Host" H 800 1500 50  0000 L CNN
-F 2 "" H 1150 1100 50  0001 C CNN
-F 3 "" H 1150 1100 50  0001 C CNN
-	1    1000 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L USB_B J?
 U 1 1 5A53DFD8
 P 1000 2300
 F 0 "J?" H 800 2750 50  0000 L CNN
@@ -128,17 +117,6 @@ F 3 "DOCUMENTATION" H 3200 2350 50  0001 C CNN
 $EndComp
 $Comp
 L GND #PWR?
-U 1 1 5A53E5F9
-P 950 1600
-F 0 "#PWR?" H 950 1350 50  0001 C CNN
-F 1 "GND" H 950 1450 50  0000 C CNN
-F 2 "" H 950 1600 50  0001 C CNN
-F 3 "" H 950 1600 50  0001 C CNN
-	1    950  1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
 U 1 1 5A53E61B
 P 950 2750
 F 0 "#PWR?" H 950 2500 50  0001 C CNN
@@ -148,13 +126,6 @@ F 3 "" H 950 2750 50  0001 C CNN
 	1    950  2750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1000 1600 1000 1550
-Wire Wire Line
-	900  1600 1000 1600
-Wire Wire Line
-	900  1600 900  1550
-Connection ~ 950  1600
 Wire Wire Line
 	900  2700 900  2750
 Wire Wire Line
@@ -322,21 +293,6 @@ F 3 "" H 1350 2050 50  0001 C CNN
 	1    1350 2050
 	1    0    0    -1  
 $EndComp
-$Comp
-L +5V #PWR?
-U 1 1 5A553392
-P 1350 900
-F 0 "#PWR?" H 1350 750 50  0001 C CNN
-F 1 "+5V" H 1350 1040 50  0000 C CNN
-F 2 "" H 1350 900 50  0001 C CNN
-F 3 "" H 1350 900 50  0001 C CNN
-	1    1350 900 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 900  1350 950 
-Wire Wire Line
-	1350 950  1300 950 
 $Comp
 L Conn_02x20_Odd_Even J?
 U 1 1 5A554ABF
