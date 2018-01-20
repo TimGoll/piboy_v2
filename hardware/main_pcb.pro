@@ -1,4 +1,4 @@
-update=09.01.2018 18:59:57
+update=20.01.2018 20:36:48
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,3 +64,4 @@ LibName32=LTC3113
 LibName33=LTC4001
 LibName34=TP4056
 LibName35=F:/Software/KiCad/share/kicad/library/switches
+LibName36=shunt
