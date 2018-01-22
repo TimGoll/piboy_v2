@@ -1,4 +1,4 @@
-update=21.01.2018 21:54:27
+update=22.01.2018 21:41:07
 version=1
 last_client=kicad
 [pcbnew]
@@ -67,3 +67,4 @@ LibName35=F:/Software/KiCad/share/kicad/library/switches
 LibName36=shunt
 LibName37=MT3508
 LibName38=LTC3113EFE
+LibName39=B103
