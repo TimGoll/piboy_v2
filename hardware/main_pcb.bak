@@ -2274,4 +2274,8 @@ Text GLabel 10650 6150 0    39   Input ~ 0
 leveled_right
 Text GLabel 10650 6050 0    39   Input ~ 0
 leveled_left
+Text GLabel 10650 5950 0    39   Input ~ 0
+speaker_left
+Text GLabel 10650 6250 0    39   Input ~ 0
+speaker_right
 $EndSCHEMATC

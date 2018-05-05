@@ -1,4 +1,4 @@
-update=22.01.2018 21:41:07
+update=27.01.2018 14:28:16
 version=1
 last_client=kicad
 [pcbnew]
@@ -68,3 +68,4 @@ LibName36=shunt
 LibName37=MT3508
 LibName38=LTC3113EFE
 LibName39=B103
+LibName40=LM3914N
