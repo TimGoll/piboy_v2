@@ -1,4 +1,4 @@
-update=27.01.2018 14:28:16
+update=06.05.2018 15:10:25
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=E:/__ git/kicad_libs/libs
+LibDir=E:/__ git/kicad-library/library;E:/__ git/kicad_libs/libs
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -69,3 +69,4 @@ LibName37=MT3508
 LibName38=LTC3113EFE
 LibName39=B103
 LibName40=LM3914N
+LibName41=MAX17043
