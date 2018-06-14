@@ -1913,13 +1913,13 @@ Text GLabel 2900 6150 2    39   Input ~ 0
 SDA
 Text GLabel 2900 6250 2    39   Input ~ 0
 SCL
-Text GLabel 4150 6100 2    39   Input ~ 0
+Text GLabel 3450 6100 2    39   Input ~ 0
 ~CHRG
 Text GLabel 4200 2400 2    39   Input ~ 0
 FAULT
-Text GLabel 4150 6000 2    39   Input ~ 0
+Text GLabel 3450 6000 2    39   Input ~ 0
 FAULT
-Text GLabel 4150 6200 2    39   Input ~ 0
+Text GLabel 3450 6200 2    39   Input ~ 0
 MAX_VCC
 Text GLabel 3350 6900 2    39   Input ~ 0
 ~ALRT
@@ -2612,4 +2612,8 @@ F 3 "" H 950 4750 50  0001 C CNN
 	1    950  4750
 	-1   0    0    1   
 $EndComp
+Text Notes 1700 4650 0    39   ~ 0
+Interrupt for charger\nplugged in
+Text Notes 4800 5750 0    39   ~ 0
+FuelGauge IC
 $EndSCHEMATC
