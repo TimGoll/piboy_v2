@@ -28,4 +28,4 @@ Der Prozessor ist zu jeder Zeit an (`ca 3.7mA`), wird aber in einen Schlafmodus 
 Diese sollten eine Konstantstromversorgung haben, da sie von der ungeregelten batteriespannung betrieben werden. [[Konstantstromquelle]](https://electronics.stackexchange.com/questions/55823/how-can-i-efficiently-drive-an-led)
 
 ## FuelGauge: max17043
-Auch dieser hat eine Variable Eingangsspannung passend zu Li-Ion/Li-Po Akkus. Über I<sup>2</sup>C können die Daten vom Mikroprozessor ausgelesen werden.
+Auch dieser hat eine Variable Eingangsspannung passend zu Li-Ion/Li-Po Akkus. Über I<sup>2</sup>C können die Daten vom Mikroprozessor ausgelesen werden. [[Library]](https://github.com/lucadentella/ArduinoLib_MAX17043)
