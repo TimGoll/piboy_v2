@@ -19,6 +19,13 @@
  * 31: REQUEST_BAT_STATE
  */
 
+/*
+ * the states should be devided into states and substates
+ * states: raspbery pi on / raspbery pi off
+ * substates: default / charging / charging finished / battery state request
+ * (always returns into default after they are finished)
+ */
+
 #define BAUDRATE 115200         //baudrate for uart between raspberry and arduino
 #define THRESHOLD 30            //debouncetime for buttons
 #define SHUTDOWN_TIMEOUT = 1*60 //timeout for shutdown response
@@ -126,13 +133,19 @@ void loop() {
         // the mcu should be powered down and wait fot external interrupts
         LowPower.powerDown(SLEEP_FOREVER, ADC_OFF, BOD_OFF);
     } else if (state == STATE_CHARGING) {
-
+        // in this state the MCU is turned on, measures the current voltage and
+        // displays the current charging state on the LEDs
     } else if (state == STATE_CHARGING_FINISHED) {
-
+        // after finishing the charging process, all LEDs start to blink until
+        // the charging cable is removed; the MCU shuts down after removal of the
+        // charging cable
     } else if (state == STATE_RPI_ON) {
-
+        // MCU is turned on and monitors the battery voltage
+        // if the voltage falls below a certain threshold, the MCU sends a message
+        // via serial to the raspberry pi
     } else if (state == STATE_BAT_TEST) {
-
+        // the previous state is important here!
+        // the MCU is turned on for 5 seconds and displays the battery state
     }
 
     // CHECK SERIAL CONNECTION
