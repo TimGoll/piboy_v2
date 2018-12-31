@@ -1,5 +1,7 @@
 # HandPie (RaspberryPi based Gameboy v2)
 
+ThiThis project is heavily WIP and still active despite the lack of recenrecent commits. It aims to create an all in one piboy with a single board running next to the RPi handling charging, voltages, audio and a microcontroller. I plan on finishing this project in 2019.
+
 ## Shut Down
 Eine einfache Unterbrechung der Spannungsleitung ist nicht gut, da das System nicht herunter gefahren wird. Die Lösung ist es hier die Verwaltung auf den Microcontroller zu legen und ein ShutDown Befehl an den Raspberry zu senden.
 
